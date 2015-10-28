@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bggrid"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/grid_txtDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp" >
+
+        <TextView
+            android:id="@+id/grid_txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"       
+         
+            android:layout_weight="2"          
+            android:text="Large Text"        
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/grid_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:src="@drawable/ex" />
+    </LinearLayout>
+
+</LinearLayout>
